@@ -24,3 +24,4 @@ Uncomment this snippet in app.scss
 '../vendor/foundation/scss/foundation',
 '../vendor/foundation/scss/normalize';
 ```
+# advanced-gulp-project 
