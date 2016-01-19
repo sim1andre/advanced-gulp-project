@@ -4,8 +4,6 @@
 var prod = false;
 var use_browserSync = true;
 var use_scss_lint = false;
-var use_js_hint = true;
-
 
 //LOAD PLUGINS------------------------------------------------------------------
 const gulp = require('gulp');
