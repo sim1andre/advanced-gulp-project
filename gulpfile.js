@@ -25,7 +25,7 @@ gulp.task('browser-sync', () => { require('./gulptasks/browserSync')(gulp, plugi
 
 gulp.task('styles', (cb) => { require('./gulptasks/styles')(gulp, plugins, src, dest, cb, prod, use_scss_lint, use_browserSync) });
 
-gulp.task('script', (cb) => { require('./gulptasks/script')(gulp, plugins, src, dest, cb, prod, use_js_hint) });
+gulp.task('script', (cb) => { require('./gulptasks/script')(gulp, plugins, src, dest, cb, prod) });
 
 gulp.task('images', (cb) => { require('./gulptasks/images')(gulp, plugins, src, dest, cb) });
 
